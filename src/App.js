@@ -1,4 +1,3 @@
-import logo from './blockdemy.svg';
 import './App.css';
 import {useState} from 'react'
 import Web3 from 'web3/dist/web3.min'
@@ -92,7 +91,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
        {wallet? (
          <button id="Connected">Conectado</button>
        ) : (
@@ -104,7 +102,7 @@ function App() {
       {wallet? (
       <div id='container'>
         <div id='message'>
-          <h1>Con nuestro <span>{contractName}</span> se parte de nuestra comunidad</h1>
+          <h1>Dapp example with web3</h1>
           <h1> <span></span></h1>
         </div>
         <div id='boxDetails'>
