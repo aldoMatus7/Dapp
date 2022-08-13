@@ -103,7 +103,7 @@ function App() {
       <div id='container'>
         <div id='message'>
           <h1>Dapp example with web3</h1>
-          <h1> <span></span></h1>
+          <h1><span>Buy tokens</span></h1>
         </div>
         <div id='boxDetails'>
           <p>Contrato:<span>{CONTRACT_ADDRESS}</span></p>
